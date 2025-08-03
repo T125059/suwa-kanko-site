@@ -1,5 +1,3 @@
-'use strict';
-
 const themeToggleButton = document.getElementById('theme-toggle-btn');
 const bodyElement = document.body;
 
@@ -11,4 +9,5 @@ themeToggleButton.addEventListener('click', () => {
   } else {
     themeToggleButton.textContent = 'ダークモード';
   }
+
 });
