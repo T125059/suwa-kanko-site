@@ -1,5 +1,3 @@
-'use strict';
-
 const allSpots = [
   { name: '諏訪湖', img: 'img/suwako.jpg', desc: '長野県最大の湖です。湖畔には温泉や美術館が点在し、四季折々の美しい景色が楽しめます。', category: 'nature', url: 'https://www.suwakanko.jp/story/%E8%AB%8F%E8%A8%AA%E6%B9%96%E3%83%BB%E7%BE%8E%E8%A1%93%E9%A4%A8/' },
   { name: '霧ヶ峰高原', img: 'img/kirigamine.jpg', desc: '夏にはニッコウキスゲが咲き誇る広大な高原です。ハイキングコースとしても人気です。', category: 'nature', url: 'https://kirigamine.suwakanko.jp' },
@@ -33,4 +31,5 @@ displaySpots(allSpots);
 
 
 console.log('観光スポット一覧ページの準備ができました。');
+
 
