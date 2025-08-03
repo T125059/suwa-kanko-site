@@ -1,5 +1,3 @@
-'use strict';
-
 const lists = [
   {
     name: '諏訪湖',
@@ -41,3 +39,4 @@ for (let i = 0; i < lists.length; i++) {
 
 
 console.log('おすすめ観光スポットの表示処理が完了しました。');
+
